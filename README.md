@@ -6,11 +6,12 @@ We evaluated the efficacy of our approach on various tasks like Suggestion Minin
 
 ### Instructions:
 1. Create a python3 envrionment and install all the packages mentionsed in the requirements.txt file.
+2. Download the tlmote.py file and the glove.6B.100d file in the same directory.
 2. Store the unbalanced dataset in a .csv file, with column names "Sentence" and "Tag" for the text and labels respectively.
 3. Run the shell command:
 
 ```sh
-python tlmote.py data_directory
+python tlmote.py data_directory_and_file
 
 ```
 
